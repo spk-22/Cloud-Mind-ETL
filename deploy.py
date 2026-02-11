@@ -7,7 +7,7 @@ from azure.identity import DefaultAzureCredential
 # -------------------------------
 ml_client = MLClient(
     credential=DefaultAzureCredential(),
-    subscription_id="42a058ed-051f-497e-bf0b-1a3a591e2393",
+    subscription_id="Put your ID here",
     resource_group_name="AI-ETL",
     workspace_name="cloud_ML_training"
 )
